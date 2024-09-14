@@ -1,0 +1,153 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+
+
+
+/* Button Styles for the Go Back Link */
+h3 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6a0dad; /* Purple background */
+    color: #fff; /* White text */
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Poppins', Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h3 a:hover {
+    background-color: #4b0082; /* Darker purple on hover */
+    color: #d6a3e4; /* Light purple text on hover */
+}
+
+
+ol {
+    list-style-type: decimal; /* Default numbering */
+    margin: 20px; /* Adds margin around the list */
+    padding: 0; /* Removes default padding */
+}
+
+ol li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+ol a {
+    text-decoration: none; /* Removes underline from links */
+    color: #fff; /* Sets link color to indigo */
+    font-family: 'Poppins', sans-serif; /* Uses the Poppins font */
+    font-size: 20px; /* Sets the font size */
+    text-decoration: underline; /* Adds underline on hover */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+ol a:hover {
+    color: #6a0dad; /* Changes color on hover (hot pink) */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Optional: Adding a border or background to the list */
+ol {
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Adds padding inside the list */
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #ddd;
+}
+
+/* Section Styles */
+h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0 20px;
+    line-height: 1.6;
+}
+
+/* Image Styles */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #fff;
+    border-radius: 8px;
+}
+
+/* Links and Buttons */
+h3 a {
+    color: #ddd;
+}
+
+h3 a:hover {
+    color: #fff;
+}
+
+/* Coming Soon Section */
+h2:last-of-type {
+    text-align: center;
+    color: #f39c12;
+}
+/* Scroll Up Button */
+#scrollUpBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #6a0dad; /* Purple background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    display: none; /* Hidden by default */
+    transition: background-color 0.3s;
+}
+
+#scrollUpBtn:hover {
+    background-color: #4b0082; /* Darker purple on hover */
+}
